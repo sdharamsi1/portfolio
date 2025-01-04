@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Sahil Dharamsi</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+      <link rel="shortcut icon" href="resources/img/jm.jpg">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="resources/css/style.css">
+      <script>
+         document.addEventListener("DOMContentLoaded", function () {
+            fetch("sidebar.html")
+               .then(response => response.text())
+               .then(data => {
+                  document.getElementById("sidebar").innerHTML = data;
+               })
+               .catch(error => console.error("Error loading sidebar:", error));
+         });
+      </script>
+   </head>
+   <body>
+      <!-- Sidebar -->
+      <div id="sidebar"></div>
+
+      <!-- Particles Background -->
+      <div id="particles-js"></div>
+
+    <!-- Certifications Section -->
+    <div class="container mt-5">
+        <h2 class="text-light text-center">Certifications</h2>
+        <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm custom-card">
+                <div class="card-body">
+                    <img src="resources/img/experiences/appian.jpg" alt="AWS Certification Logo" class="company-logo mb-3">
+                    <h5 class="card-title">Appian Certified Associate Developer</h5>
+                    <p class="card-text">Attained January 2024</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm custom-card">
+                <div class="card-body">
+                    <img src="resources/img/platforms/aws.jpg" alt="Security Certification Logo" class="company-logo mb-3">
+                    <h5 class="card-title">AWS Certified Cloud Practitioner</h5>
+                    <p class="card-text">Attained January 2023</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm custom-card">
+                <div class="card-body">
+                    <img src="resources/img/certifications//isc2.jpg" alt="DevSecOps Certification Logo" class="company-logo mb-3">
+                    <h5 class="card-title">ISC(2) Certified In Cybersecurity</h5>
+                    <p class="card-text">Attained October 2022</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+ 
+
+     <!-- Platforms Section -->
+     <div class="container mt-5">
+        <h2 class="text-light text-center">Platforms</h2>
+        <div class="row text-center mt-4">
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/platforms/aws.jpg" alt="AWS" class="skill-logo mb-2">
+                <p class="skill-title">AWS</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/platforms/gcp.jpg" alt="GCP" class="skill-logo mb-2">
+                <p class="skill-title">GCP</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/platforms/azure.jpg" alt="Azure" class="skill-logo mb-2">
+                <p class="skill-title">Azure</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/platforms/linux.jpg" alt="Linux" class="skill-logo mb-2">
+                <p class="skill-title">Linux</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/platforms/windows.jpg" alt="Windows" class="skill-logo mb-2">
+                <p class="skill-title">Windows</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/platforms/mac.jpg" alt="Mac" class="skill-logo mb-2">
+                <p class="skill-title">Mac</p>
+            </div>
+        </div>
+    </div>
+
+     <!-- Programming Section -->
+     <div class="container mt-5">
+        <h2 class="text-light text-center">Programming</h2>
+        <div class="row text-center mt-4">
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/programming/python.jpg" alt="Python" class="skill-logo mb-2">
+                <p class="skill-title">Python</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/programming/terraform.jpg" alt="Terraform" class="skill-logo mb-2">
+                <p class="skill-title">Terraform</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/programming/ansible.jpg" alt="Ansible" class="skill-logo mb-2">
+                <p class="skill-title">Ansible</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/experiences/appian.jpg" alt="SAIL" class="skill-logo mb-2">
+                <p class="skill-title">SAIL</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/programming/bash.jpg" alt="Bash" class="skill-logo mb-2">
+                <p class="skill-title">Bash</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/programming/sql.jpg" alt="SQL" class="skill-logo mb-2">
+                <p class="skill-title">SQL</p>
+            </div>
+        </div>
+    </div>
+
+     <!-- Technologies Section -->
+     <div class="container mt-5">
+        <h2 class="text-light text-center">Technologies</h2>
+        <div class="row text-center mt-4">
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/experiences/appian.jpg" alt="Appian" class="skill-logo mb-2">
+                <p class="skill-title">Appian</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/tenable.jpg" alt="Tenable" class="skill-logo mb-2">
+                <p class="skill-title">Tenable</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/crowdstrike.jpg" alt="Crowdstrike" class="skill-logo mb-2">
+                <p class="skill-title">Crowdstrike</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/prowler.jpg" alt="Prowler" class="skill-logo mb-2">
+                <p class="skill-title">Prowler</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/git.jpg" alt="Git" class="skill-logo mb-2">
+                <p class="skill-title">Git</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/gitlab.jpg" alt="GitLab" class="skill-logo mb-2">
+                <p class="skill-title">GitLab</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/atlassian.jpg" alt="Atlassian" class="skill-logo mb-2">
+                <p class="skill-title">Atlassian</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/appomni.jpg" alt="AppOmni" class="skill-logo mb-2">
+                <p class="skill-title">AppOmni</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/okta.jpg" alt="Okta" class="skill-logo mb-2">
+                <p class="skill-title">Okta</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/vault.jpg" alt="Vault" class="skill-logo mb-2">
+                <p class="skill-title">Vault</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/splunk.jpg" alt="Splunk" class="skill-logo mb-2">
+                <p class="skill-title">Splunk</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 mb-4">
+            <div class="skill-box">
+                <img src="resources/img/technologies/purpleknight.jpg" alt="Purple Knight" class="skill-logo mb-2">
+                <p class="skill-title">Purple Knight</p>
+            </div>
+        </div>
+    </div>
+     
+
+      <!-- Scripts -->
+      <script type="text/javascript" src="js/particles.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </body>
+</html>
